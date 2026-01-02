@@ -535,6 +535,10 @@ export type Database = {
       }
     }
     Functions: {
+      regenerate_menu_items: {
+        Args: { p_ai_data: Json; p_menu_id: string }
+        Returns: undefined
+      }
       save_full_menu: {
         Args: { p_ai_data: Json; p_batch_id: string; p_client_id: string }
         Returns: undefined
