@@ -1,9 +1,10 @@
-import { ClipboardList, History, Settings, Leaf } from "lucide-react";
+import { ClipboardList, History, Settings, Leaf, ChefHat } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const navItems = [
   { to: "/", label: "Review Queue", icon: ClipboardList },
+  { to: "/recipes", label: "Recipes", icon: ChefHat },
   { to: "/history", label: "Approved History", icon: History },
   { to: "/settings", label: "Settings", icon: Settings },
 ];
